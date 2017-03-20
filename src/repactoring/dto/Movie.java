@@ -1,7 +1,12 @@
 package repactoring.dto;
 
 public class Movie {
-      private String title;
+      
+     public static final int REGULAR = 1;
+     public static final int NEW_RELEASE =2;
+     public static final int CHILDREN = 3;
+	
+	private String title;
       private int priceCode;
 
       
